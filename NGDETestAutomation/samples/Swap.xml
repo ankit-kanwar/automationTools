@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE OTCSwapDealEvent PUBLIC "http://nextgen.ist.bp.com/dtd/OTCSwapDealEvent-transformed.dtd" "OTCSwapDealEvent-transformed.dtd">
+<OTCSwapDealEvent>
+<OTC_Swap_Deal_Header action="update" Deal_Reference="E170000184" Owning_Company_RDCMB_FK="1010003020001685" Trader_SCUSR_FK="1010050011000006" Counterparty_RDCMB_FK="1010003020000280" Deal_Done_Date="2017-01-23" Deal_Entered_Date="2017-01-23T09:40:55.000" Deal_Status_RDCOD_FK="1010003003000039" Counterparty_Trader_Name="ab" Non_Standard_Contract_Ind="N" Boutique_Indicator="N" Lifecycle_Event_RDCOD_FK="1010097003000019" Source_System="NGDE">
+<Derivative_Deal Frequency_RDCOD_FK="1010003003000052" Quantity_Basis_RDCOD_FK="1010003003000222" Derivs_Product_RDDPR_FK="1011000147519932" Deal_Type_RDDLT_FK="1010012076000001" EFS_Applicable_Ind="N" Payment_Security_RDCOD_FK="1010003003000191" Owning_Company_Hedge_Ind="Y" DoddFrank_Ind="N" EMIR_Ind="Y" EMIR_Reporter_RDCOD_FK="1010097003000008" UTI_Source_RDCOD_FK="1010097003000015" Master_Agreement_Type_RDCOD_FK="1010007003000004" Master_Agreement_Version="1992" Deal_Done_Date_Time="2017-01-23T01:00:00.000" Lifecycle_Event_RDCOD_FK="1010097003000019">
+<Chain_Details Chain_Prefix_RDCHP_FK="1011000033610658" Chain_Number="0002" Percentage="100.00" House_Deal_Type="N" />
+<Swap_Settlement Strip_Number="1" Buy_Sell_Indicator="B" Quantity_Amount="25.0" Quantity_Units_RDUOM_FK="1010003051000000" Non_Standard_Pricing="Y" Pricing_System_RDCOD_FK="1010074003000001" Leg_Last_Update_User_SCUSR_FK="1010050011000006" Leg_Last_Update_Time="2017-01-23T09:41:49.000">
+<PriceA Units_RDPUN_FK="1010003055000004" Fixed_Price_Value="2.0000" />
+<PriceB Units_RDPUN_FK="1010003055000004">
+<Fixed_Dates Start_Date="2017-01-23" End_Date="2017-01-23" />
+<Pricing_Line Pricing_Line_Number="1" Time_Series_RDTSE_FK="1010003058000711" Percentage_Weighting="100.00" Series_Definition_RDSDF_FK="1010003068000090" Delivery_Period_RDDEP_FK="1010003066000000" Property_RDPRP_FK="1010003067000005" />
+</PriceB>
+<Settlement_Term Currency_RDCAB_FK="1010003029000024" Settlement_Term_RDDLE_FK="1010003054000001" Offset_From_Event="14" Calendar_Work_Days_Ind="C" From_After_Indicator="A" Split_Previous_Next_Ind="S" Calendar_RDCAL_FK="1010003053000002" />
+</Swap_Settlement>
+<Swap_Settlement Strip_Number="2" Buy_Sell_Indicator="B" Quantity_Amount="25.0" Quantity_Units_RDUOM_FK="1010003051000000" Non_Standard_Pricing="Y" Pricing_System_RDCOD_FK="1010074003000001" Leg_Last_Update_User_SCUSR_FK="1010050011000006" Leg_Last_Update_Time="2017-01-23T09:41:49.000">
+<PriceA Units_RDPUN_FK="1010003055000004" Fixed_Price_Value="2.0000" />
+<PriceB Units_RDPUN_FK="1010003055000004">
+<Fixed_Dates Start_Date="2017-01-23" End_Date="2017-01-23" />
+<Pricing_Line Pricing_Line_Number="1" Time_Series_RDTSE_FK="1010003058000711" Percentage_Weighting="100.00" Series_Definition_RDSDF_FK="1010003068000090" Delivery_Period_RDDEP_FK="1010003066000000" Property_RDPRP_FK="1010003067000005" />
+</PriceB>
+<Settlement_Term Currency_RDCAB_FK="1010003029000024" Settlement_Term_RDDLE_FK="1010003054000001" Offset_From_Event="14" Calendar_Work_Days_Ind="C" From_After_Indicator="A" Split_Previous_Next_Ind="S" Calendar_RDCAL_FK="1010003053000002" />
+</Swap_Settlement>
+</Derivative_Deal>
+</OTC_Swap_Deal_Header>
+</OTCSwapDealEvent>
+
+

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE OTCOptionDealEvent PUBLIC "http://nextgen.ist.bp.com/dtd/OTCOptionDealEvent-transformed.dtd" "OTCOptionDealEvent-transformed.dtd">
+<OTCOptionDealEvent>
+<OTC_Option_Deal_Header action="update" Deal_Reference="E170000190" Owning_Company_RDCMB_FK="1010003020001685" Trader_SCUSR_FK="1010050011000006" Counterparty_RDCMB_FK="1010003020000403" Deal_Done_Date="2017-01-24" Deal_Entered_Date="2017-01-24T01:30:39.000" Deal_Status_RDCOD_FK="1010003003000039" Counterparty_Trader_Name="AUTOEP" Non_Standard_Contract_Ind="N" Lifecycle_Event_RDCOD_FK="1010097003000019" Source_System="NGDE">
+<Derivative_Deal Frequency_RDCOD_FK="1010003003000053" Quantity_Basis_RDCOD_FK="1010003003000222" Deal_Type_RDDLT_FK="1010003076000003" Option_Type_RDCOD_FK="1010003003000186" Payment_Security_RDCOD_FK="1010003003000190" EFS_Applicable_Ind="N" Owning_Company_Hedge_Ind="Y" DoddFrank_Ind="N" EMIR_Ind="Y" EMIR_Reporter_RDCOD_FK="1010097003000008" UTI_Source_RDCOD_FK="1010097003000015" Master_Agreement_Type_RDCOD_FK="1010007003000004" Deal_Done_Date_Time="2017-01-24T00:30:43.000" Lifecycle_Event_RDCOD_FK="1010097003000019">
+<Chain_Details Chain_Prefix_RDCHP_FK="1011000033610658" Chain_Number="0001" Percentage="100.00" House_Deal_Type="N" />
+<Exercisable_Unit Strip_Number="1" Buy_Sell_Indicator="B" Call_Put_Indicator="C" Quantity_Amount="20.0" Quantity_Units_RDUOM_FK="1010003051000002" Pricing_System_RDCOD_FK="1010074003000004" Leg_Last_Update_User_SCUSR_FK="1010050011000006" Leg_Last_Update_Time="2017-01-24T11:18:41.000">
+<Premium_Price Fixed_Price_Value="5.0000" Units_RDPUN_FK="1010003055000005" />
+<Strike_Price Fixed_Price_Value="50.0000" Units_RDPUN_FK="1010003055000005" />
+<Option_Expiry_Terms Expiry_Time="00:00" TimeZone_RDCOD_FK="1010003003001071" Automatic_Expiry_Ind="N" Expiry_Date="2017-02-03" />
+<Premium_Settlement_Term Currency_RDCAB_FK="1010003029000024" Fixed_Payment_Due_Date="2017-01-25" Calendar_RDCAL_FK="" />
+<Option_Settlement_Term Currency_RDCAB_FK="1010003029000024" Fixed_Payment_Due_Date="2017-02-03" Calendar_RDCAL_FK="" />
+<Financial_Settlement_Pricing>
+<Pricing_Line Pricing_Line_Number="1" Time_Series_RDTSE_FK="1010003058000298" Percentage_Weighting="100.00" Premium_Value="5.0000" Premium_Units_RDPUN_FK="1010003055000005" Series_Definition_RDSDF_FK="1010003068000054" Delivery_Period_RDDEP_FK="1010003066000000" Property_RDPRP_FK="1010003067000005" />
+</Financial_Settlement_Pricing>
+</Exercisable_Unit>
+</Derivative_Deal>
+</OTC_Option_Deal_Header>
+</OTCOptionDealEvent>
